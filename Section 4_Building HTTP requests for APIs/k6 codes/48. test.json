@@ -1,0 +1,47 @@
+{"type":"Metric","data":{"name":"vus","type":"gauge","contains":"default","thresholds":[],"submetrics":null},"metric":"vus"}
+{"metric":"vus","type":"Point","data":{"time":"2024-06-25T11:48:47.7437734+06:00","value":1,"tags":{}}}
+{"type":"Metric","data":{"name":"vus_max","type":"gauge","contains":"default","thresholds":[],"submetrics":null},"metric":"vus_max"}
+{"metric":"vus_max","type":"Point","data":{"time":"2024-06-25T11:48:47.7437734+06:00","value":1,"tags":{}}}
+{"metric":"vus","type":"Point","data":{"time":"2024-06-25T11:48:48.7482046+06:00","value":1,"tags":{}}}
+{"metric":"vus_max","type":"Point","data":{"time":"2024-06-25T11:48:48.7482046+06:00","value":1,"tags":{}}}
+{"metric":"vus","type":"Point","data":{"time":"2024-06-25T11:48:49.7475662+06:00","value":1,"tags":{}}}
+{"metric":"vus_max","type":"Point","data":{"time":"2024-06-25T11:48:49.7475662+06:00","value":1,"tags":{}}}
+{"metric":"vus","type":"Point","data":{"time":"2024-06-25T11:48:50.7462444+06:00","value":1,"tags":{}}}
+{"metric":"vus_max","type":"Point","data":{"time":"2024-06-25T11:48:50.7462444+06:00","value":1,"tags":{}}}
+{"type":"Metric","data":{"name":"http_reqs","type":"counter","contains":"default","thresholds":[],"submetrics":null},"metric":"http_reqs"}
+{"metric":"http_reqs","type":"Point","data":{"time":"2024-06-25T11:48:50.7859071+06:00","value":1,"tags":{"expected_response":"true","group":"::Post module","method":"POST","name":"https://test-api.k6.io/auth/token/login/","proto":"HTTP/1.1","scenario":"default","status":"200","tls_version":"tls1.3","url":"https://test-api.k6.io/auth/token/login/"}}}
+{"type":"Metric","data":{"name":"http_req_duration","type":"trend","contains":"time","thresholds":[],"submetrics":[{"name":"http_req_duration{expected_response:true}","suffix":"expected_response:true","tags":{"expected_response":"true"}}]},"metric":"http_req_duration"}
+{"metric":"http_req_duration","type":"Point","data":{"time":"2024-06-25T11:48:50.7859071+06:00","value":3528.5402,"tags":{"expected_response":"true","group":"::Post module","method":"POST","name":"https://test-api.k6.io/auth/token/login/","proto":"HTTP/1.1","scenario":"default","status":"200","tls_version":"tls1.3","url":"https://test-api.k6.io/auth/token/login/"}}}
+{"type":"Metric","data":{"name":"http_req_blocked","type":"trend","contains":"time","thresholds":[],"submetrics":null},"metric":"http_req_blocked"}
+{"metric":"http_req_blocked","type":"Point","data":{"time":"2024-06-25T11:48:50.7859071+06:00","value":517.8059,"tags":{"expected_response":"true","group":"::Post module","method":"POST","name":"https://test-api.k6.io/auth/token/login/","proto":"HTTP/1.1","scenario":"default","status":"200","tls_version":"tls1.3","url":"https://test-api.k6.io/auth/token/login/"}}}
+{"type":"Metric","data":{"name":"http_req_connecting","type":"trend","contains":"time","thresholds":[],"submetrics":null},"metric":"http_req_connecting"}
+{"metric":"http_req_connecting","type":"Point","data":{"time":"2024-06-25T11:48:50.7859071+06:00","value":235.7482,"tags":{"expected_response":"true","group":"::Post module","method":"POST","name":"https://test-api.k6.io/auth/token/login/","proto":"HTTP/1.1","scenario":"default","status":"200","tls_version":"tls1.3","url":"https://test-api.k6.io/auth/token/login/"}}}
+{"type":"Metric","data":{"name":"http_req_tls_handshaking","type":"trend","contains":"time","thresholds":[],"submetrics":null},"metric":"http_req_tls_handshaking"}
+{"metric":"http_req_tls_handshaking","type":"Point","data":{"time":"2024-06-25T11:48:50.7859071+06:00","value":241.3099,"tags":{"expected_response":"true","group":"::Post module","method":"POST","name":"https://test-api.k6.io/auth/token/login/","proto":"HTTP/1.1","scenario":"default","status":"200","tls_version":"tls1.3","url":"https://test-api.k6.io/auth/token/login/"}}}
+{"type":"Metric","data":{"name":"http_req_sending","type":"trend","contains":"time","thresholds":[],"submetrics":null},"metric":"http_req_sending"}
+{"metric":"http_req_sending","type":"Point","data":{"time":"2024-06-25T11:48:50.7859071+06:00","value":0.5167,"tags":{"expected_response":"true","group":"::Post module","method":"POST","name":"https://test-api.k6.io/auth/token/login/","proto":"HTTP/1.1","scenario":"default","status":"200","tls_version":"tls1.3","url":"https://test-api.k6.io/auth/token/login/"}}}
+{"type":"Metric","data":{"name":"http_req_waiting","type":"trend","contains":"time","thresholds":[],"submetrics":null},"metric":"http_req_waiting"}
+{"metric":"http_req_waiting","type":"Point","data":{"time":"2024-06-25T11:48:50.7859071+06:00","value":3528.0235,"tags":{"expected_response":"true","group":"::Post module","method":"POST","name":"https://test-api.k6.io/auth/token/login/","proto":"HTTP/1.1","scenario":"default","status":"200","tls_version":"tls1.3","url":"https://test-api.k6.io/auth/token/login/"}}}
+{"type":"Metric","data":{"name":"http_req_receiving","type":"trend","contains":"time","thresholds":[],"submetrics":null},"metric":"http_req_receiving"}
+{"metric":"http_req_receiving","type":"Point","data":{"time":"2024-06-25T11:48:50.7859071+06:00","value":0,"tags":{"expected_response":"true","group":"::Post module","method":"POST","name":"https://test-api.k6.io/auth/token/login/","proto":"HTTP/1.1","scenario":"default","status":"200","tls_version":"tls1.3","url":"https://test-api.k6.io/auth/token/login/"}}}
+{"type":"Metric","data":{"name":"http_req_failed","type":"rate","contains":"default","thresholds":[],"submetrics":null},"metric":"http_req_failed"}
+{"metric":"http_req_failed","type":"Point","data":{"time":"2024-06-25T11:48:50.7859071+06:00","value":0,"tags":{"expected_response":"true","group":"::Post module","method":"POST","name":"https://test-api.k6.io/auth/token/login/","proto":"HTTP/1.1","scenario":"default","status":"200","tls_version":"tls1.3","url":"https://test-api.k6.io/auth/token/login/"}}}
+{"type":"Metric","data":{"name":"checks","type":"rate","contains":"default","thresholds":[],"submetrics":null},"metric":"checks"}
+{"metric":"checks","type":"Point","data":{"time":"2024-06-25T11:48:50.7907957+06:00","value":1,"tags":{"check":"check method is POST, OPTIONS","group":"::Post module::Response header assertion","scenario":"default"}}}
+{"metric":"checks","type":"Point","data":{"time":"2024-06-25T11:48:50.7907957+06:00","value":1,"tags":{"check":"check X-Frame-Options is SAMEORIGIN","group":"::Post module::Response header assertion","scenario":"default"}}}
+{"type":"Metric","data":{"name":"group_duration","type":"trend","contains":"time","thresholds":[],"submetrics":null},"metric":"group_duration"}
+{"metric":"group_duration","type":"Point","data":{"time":"2024-06-25T11:48:50.7907957+06:00","value":0,"tags":{"group":"::Post module::Response header assertion","scenario":"default"}}}
+{"metric":"checks","type":"Point","data":{"time":"2024-06-25T11:48:50.7907957+06:00","value":1,"tags":{"check":"check response code is 200","group":"::Post module::Response body assertion","scenario":"default"}}}
+{"metric":"checks","type":"Point","data":{"time":"2024-06-25T11:48:50.7907957+06:00","value":1,"tags":{"check":"check refresh token is generated","group":"::Post module::Response body assertion","scenario":"default"}}}
+{"metric":"checks","type":"Point","data":{"time":"2024-06-25T11:48:50.7907957+06:00","value":1,"tags":{"check":"check access token is generated","group":"::Post module::Response body assertion","scenario":"default"}}}
+{"metric":"checks","type":"Point","data":{"time":"2024-06-25T11:48:50.7914493+06:00","value":1,"tags":{"check":"expected response to be a string","group":"::Post module::Response body assertion","scenario":"default"}}}
+{"metric":"group_duration","type":"Point","data":{"time":"2024-06-25T11:48:50.7914493+06:00","value":0.6536,"tags":{"group":"::Post module::Response body assertion","scenario":"default"}}}
+{"metric":"group_duration","type":"Point","data":{"time":"2024-06-25T11:48:50.7914493+06:00","value":4051.8883,"tags":{"group":"::Post module","scenario":"default"}}}
+{"type":"Metric","data":{"name":"data_sent","type":"counter","contains":"data","thresholds":[],"submetrics":null},"metric":"data_sent"}
+{"metric":"data_sent","type":"Point","data":{"time":"2024-06-25T11:48:50.7914493+06:00","value":563,"tags":{"group":"","scenario":"default"}}}
+{"type":"Metric","data":{"name":"data_received","type":"counter","contains":"data","thresholds":[],"submetrics":null},"metric":"data_received"}
+{"metric":"data_received","type":"Point","data":{"time":"2024-06-25T11:48:50.7914493+06:00","value":6145,"tags":{"group":"","scenario":"default"}}}
+{"type":"Metric","data":{"name":"iteration_duration","type":"trend","contains":"time","thresholds":[],"submetrics":null},"metric":"iteration_duration"}
+{"metric":"iteration_duration","type":"Point","data":{"time":"2024-06-25T11:48:50.7914493+06:00","value":4051.8883,"tags":{"group":"","scenario":"default"}}}
+{"type":"Metric","data":{"name":"iterations","type":"counter","contains":"default","thresholds":[],"submetrics":null},"metric":"iterations"}
+{"metric":"iterations","type":"Point","data":{"time":"2024-06-25T11:48:50.7914493+06:00","value":1,"tags":{"group":"","scenario":"default"}}}
