@@ -1,0 +1,28 @@
+43. > k6 run  --http-debug="full" '.\64. external_JSON.js'
+48. HTML Report library
+    import { htmlReport } from "https://raw.githubusercontent.com/benc-uk/k6-reporter/main/dist/bundle.js";
+    
+68. Your first test execution in the k6 cloud (CLI command) ->
+    > GRAFANA k6 account
+    User: mtanvirkhan@gmail.com
+    Password: 0099330027!!ABC
+    mtanvirkhan.grafana.net
+
+    URL: https://mtanvirkhan.grafana.net/a/k6-app/runs/2953324?src=hg_notification_trial
+    Token link: https://mtanvirkhan.grafana.net/a/k6-app/settings/api-token
+    sample command> k6 login cloud --token 792704ef4db6a7b210024c72521f1a5034f9fa7b587facc90f7101ea31540943
+69. > k6 run '.\68. http_requests.js' -o cloud
+    this statement is for running the test locally and exporting the result to the cloud
+    output: cloud (https://mtanvirkhan.grafana.net/a/k6-app/runs/2957117)
+70. Specifying a Grafana project
+    URL: https://mtanvirkhan.grafana.net/a/k6-app/projects/3704066
+    Project id: 3704066
+74. Specifying options parameters
+    > k6 run '.\74. specifying VUs, duration & iterations.js' --vus 5 --duration 10s
+    > k6 run '.\74. specifying VUs, duration & iterations.js' --vus 5 --duration 10s --iterations 6
+    > k6 run '.\74. specifying VUs, duration & iterations.js' -u 5 -d 10s -i 6
+75. Allow insecure http_requests
+    > k6 run '.\74. specifying VUs, duration & iterations.js' -u 5 -d 10s -i 6 --insecure-skip-tls-verify
+76. Output in JSON format
+    > k6 run '.\74. specifying VUs, duration & iterations.js' -u 5 -d 10s -i 6 --summary-export=result.json
+    > k6 run '.\74. specifying VUs, duration & iterations.js' -u 5 -d 10s -i 6 --out json=full_results.json
